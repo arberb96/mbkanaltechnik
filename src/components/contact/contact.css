@@ -1,0 +1,143 @@
+#contact{
+    background-color: #f5f7fb;
+    padding: 20px 0;
+}
+
+.container.contact__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: start;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.contact__options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.2rem;
+}
+
+.contact__option {
+    background: #065391;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    min-height: 135px; 
+}
+
+.contact__option h5, .contact__option h6, .contact__option a {
+    margin: 0.5rem 0;
+}
+
+
+.contact__option:hover{
+    background: transparent;
+    border-color: #065391;
+    color: #065391;
+}
+
+.contact__option:hover .contact-link {
+    color: #065391;
+}
+
+.contact__option a{
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.contact-link {
+    color: #ffffff;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1.2rem;
+    border-radius: 4px;
+    background: transparent;
+    border: 2px solid #065391;
+    resize: none;
+    color: #065391;
+}
+
+::placeholder{
+    color: #065391;
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: #065391;
+    padding: 0.75rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #065391;
+    transition: all 400ms ease;
+}
+
+.btn:hover{
+    background: #ffffff;
+    color: #065391;
+    border-color: #065391;
+}
+
+.btn-primary{
+    background: #065391;
+    color: #ffffff;
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact__options {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    form {
+        order: 1;
+        width: 100%; 
+        padding-top: 2rem; 
+    }
+
+    .contact__options {
+        order: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: 80%;
+    }
+
+    .contact__options {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        width: 100%;
+    }
+}
