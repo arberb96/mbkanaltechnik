@@ -10,16 +10,16 @@ function Footer() {
             
             <div className="footer-company-box">
                 
-                <a href="#" className="logo"><span>MB</span>Kanaltechnik</a>
+                <a href="/" className="logo"><span>MB</span>Kanaltechnik</a>
                 
                 <p>"Von der Inspektion bis zur Sanierung: Lösungen für die Gesundheit Ihres Kanals und Ihr Seelenfrieden"</p>
                 
                 <div className="footer-social">
-                    <a  target='blank'><FaFacebookF /></a>
-                    <a target='blank'><FaInstagram /></a>
-                    <a target='blank'><FaTwitter /></a>
-                    <a target='blank'><FaLinkedin /></a>
-                    <a target='blank'><FaYoutube /></a>
+                    <a href="google" target='blank'><FaFacebookF /></a>
+                    <a href="google" target='blank'><FaInstagram /></a>
+                    <a href="google" target='blank'><FaTwitter /></a>
+                    <a href="google" target='blank'><FaLinkedin /></a>
+                    <a href="google" target='blank'><FaYoutube /></a>
                 </div>
             </div>
             

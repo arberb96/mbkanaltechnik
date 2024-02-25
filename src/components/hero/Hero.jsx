@@ -12,8 +12,8 @@ function Hero() {
                 <p>"Von der Inspektion bis zur Sanierung: Lösungen für die Gesundheit Ihres Kanals und Ihr Seelenfrieden"</p>
 
                 <div className="hero-text-btns">
-                    <a href="#">Erfahre Mehr</a>
-                    <a href="#" className="hero-contact-btn">Schnell kontakt</a>
+                    <a href="#why-choose-us">Erfahre Mehr</a>
+                    <a href="#contact" className="hero-contact-btn">Schnell kontakt</a>
                 </div>
             </div>
 
