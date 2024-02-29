@@ -6,10 +6,37 @@
 .container.contact__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    gap: 2rem;
     align-items: start;
-    width: 80%;
     margin: 0 auto;
+}
+
+.contact__left {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1.2rem;
+  }
+
+.contact__info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.2rem;
+}
+
+.contact__address-map {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.contact__address {
+    padding: 1rem;
+}
+
+.contact__map {
+    height: 200px;
+    width: 100%;
+    border: none;
+    aspect-ratio: 16 / 9;
 }
 
 h2 {
@@ -17,19 +44,15 @@ h2 {
     font-size: 1.8rem;
 }
 
-.contact__options {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 1.2rem;
-}
-
 .contact__option {
-    background: #065391;
-    border-radius: 4px;
+    /* background: #065391; */
+    background-color: #ecf6fd;
+    /* border-radius: 4px; */
     text-align: center;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
+    border: 5px solid #ffffff;
     transition: all 400ms ease;
-    color: #ffffff;
+    color: #065391;;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,9 +67,10 @@ h2 {
 
 
 .contact__option:hover{
-    background: transparent;
+    /* background: transparent;
     border-color: #065391;
-    color: #065391;
+    color: #065391; */
+    border: 5px solid #c7d0eb;
 }
 
 .contact__option:hover .contact-link {
@@ -59,13 +83,12 @@ h2 {
 }
 
 .contact-link {
-    color: #ffffff;
+    color: #065391;
 }
 
 .form{
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
 }
 
 input, textarea {
@@ -74,7 +97,7 @@ input, textarea {
     margin-bottom: 1.2rem;
     border-radius: 4px;
     background: transparent;
-    border: 2px solid #065391;
+    border: 1px solid #065391;
     resize: none;
     color: #065391;
 }
@@ -111,7 +134,7 @@ input, textarea {
         gap: 2rem;
     }
 
-    .contact__options {
+    .contact__info {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -121,7 +144,7 @@ input, textarea {
         padding-top: 2rem; 
     }
 
-    .contact__options {
+    .contact__info {
         order: 0;
     }
 }
@@ -130,10 +153,13 @@ input, textarea {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-        width: 80%;
     }
 
-    .contact__options {
+    .contact__info {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__address-map {
         grid-template-columns: 1fr;
     }
 

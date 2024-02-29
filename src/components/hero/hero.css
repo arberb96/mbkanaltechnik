@@ -50,7 +50,7 @@
 .hero-text p{
     color: #535353;
     margin: 20px 0px;
-    max-width: 500px;
+    /* max-width: 500px; */
     letter-spacing: 0.3px;
     line-height: 1.8rem;
 }
@@ -58,7 +58,6 @@
 .hero-text-btns{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
 }
 
 .hero-text-btns a{
@@ -83,10 +82,24 @@
 }
 
 
-@media(max-width:1050px){    
+@media(max-width: 1340px){
     #hero {
-        margin-left: 50px !important;
-        margin-right: 50px !important;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+@media(max-width: 1300px){
+    #hero {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+}
+
+@media(max-width:1050px){  
+    #hero {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .hero-content{
@@ -98,18 +111,28 @@
     }
     .hero-text{
         background-color: #ffffff;
-        padding: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         margin-top: 0px;
     }
 }
 
 @media(max-width:620px){
+    #hero {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
     .hero-content{
-        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .hero-text{
-        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .hero-text h1{
@@ -126,4 +149,25 @@
         margin-top: 5px;
     }
 
+    #dynamic-text { 
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:440px){
+    #hero {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media(max-width:310px){
+    #hero {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #dynamic-text { 
+        font-size: 1.3rem;
+    }
 }
