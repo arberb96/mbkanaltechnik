@@ -77,11 +77,13 @@
     justify-content: center;
     align-items: center;
 }
+
 .service-box strong{
     color: #122853;
     font-size: 1.4rem;
     margin-top: 20px;
 }
+
 .service-box p{
     font-size: 0.9rem;
     line-height: 1.4rem;
@@ -146,4 +148,21 @@
     color: #014dd5;
     text-decoration: underline;
     font-weight: 600;
+}
+
+
+@media (max-width: 380px) {
+    .service-box strong{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .service-box p{
+        font-size: 0.7rem;
+        line-height: 1.4rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 10;
+        -webkit-box-orient: vertical;
+        overflow: hidden;  
+    }
 }

@@ -91,7 +91,7 @@ ul{
     }
 }
 
-@media(max-width:620px){
+@media(max-width:620px){ 
     .services-heading h2,
     .why-choose-us-left h3,
     .why-choose-us-right h3,
