@@ -70,7 +70,6 @@
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
-    margin-right: 50px;
     z-index: 1001;
 }
 
@@ -84,20 +83,31 @@
     display: flex !important;
 }
 
-@media (max-width: 968px) {
-    .navigation{
-        justify-content: space-between;
-        padding: 30px 0px;
-        position: relative;
-        width: 100%;
-        padding: 20px;
+@media (max-width: 991px) {
+    .navigation {
+        justify-content: flex-end;
     }
-    
+
+    .logo {
+        order: 1;
+        margin-right: auto;
+    }
+
+    .nav-appointment-btn {
+        order: 2;
+        margin-right: 20px;
+    }
+
+    .hamburger-menu {
+        order: 3;
+        display: flex;
+    }
+
     .menu {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px; 
+        top: 100px; 
         width: 100%;
         left: 0;
         background-color: #fff;
@@ -113,39 +123,15 @@
         text-align: center;
         padding: 15px 0;
     }
-
-    .hamburger-menu {
-        display: flex;
-        order: 3;
-    }
-   
 }
 
 @media(max-width:950px){
-    .navigation{
-        justify-content: space-between;
-        padding: 30px 0px;
-        position: relative;
-        width: 100%;
-        padding: 20px;
-    }
-
-    .logo,
-    .nav-appointment-btn{
-        z-index: 103;
-    }
-
-    .logo{
-        margin-right: auto;
-    }
-
     .navigation .menu{
         display: none;
         position: absolute;
         left: 0px;
         top:100%;
         background-color: #ffffff;
-        width: 100%;
         padding: 0px;
         margin: 0px;
         z-index: 102;
@@ -177,101 +163,42 @@
         padding: 30px 20px;
     }
 
-    .menu-icon{
-        display: block;
-    }
+}
 
-    .navigation .menu-icon{
-        cursor: pointer;
-        float: right;
-        padding: 10px 0px;
-        position: relative;
-        user-select: none;
-        z-index: 106;
+@media(max-width:420px){
+    .nav-appointment-btn{
+        height: 35px;
+        padding: 0px 10px;
+        border-radius:4px;
+        font-weight: 500;
+        font-size: 0.7rem;
     }
+}
 
-    .navigation .menu-icon .nav-icon{
-        background-color: #181818;
-        display: block;
-        position: relative;
-        height: 2px;
-        transition: background 0.2s ease-out;
-        width: 25px;
+@media(max-width:380px){
+    .nav-appointment-btn{
+        height: 30px;
+        padding: 0px 10px;
+        border-radius:4px;
+        font-weight: 500;
+        font-size: 0.5rem;
     }
+}
 
-    .navigation .menu-icon .nav-icon::before,
-    .navigation .menu-icon .nav-icon::after{
-        background-color: #181818;
-        content: '';
-        position: absolute;
-        height: 100%;
-        transition: all ease-out 0.2s;
-        width: 100%;
-    }
-
-    .navigation .menu-icon .nav-icon::before{
-        top: 9px;
-    }
-
-    .navigation .menu-icon .nav-icon::after{
-        top: -9px;
-    }
-
-    .navigation .menu-icon:checked ~ .menu-icon .nav-icon,
-    .navigation .menu-btn:checked ~ .menu-icon .nav-icon{
-        background-color: transparent;
-    }
-
-    .navigation .menu-btn:checked ~ .menu-icon .nav-icon::before{
-        transform: rotate(-45deg);
-        top: 0px;
-    }
-
-    .navigation .menu-btn:checked ~ .menu-icon .nav-icon::after{
-        transform: rotate(45deg);
-        top: 0px;
-    }
- 
-    .navigation .menu-btn:checked ~ .menu{
-        display: block;
-    }
-
-    .nav-appointment-btn {
-        order: 2;
-        margin-right: 50px;
-    }
-
-    .logo {
-        order: 1;
-    }
-
-    .hamburger-menu {
-        order: 3;
+@media(max-width:360px){
+    .nav-appointment-btn{
         margin-right: 10px;
     }
 }
 
-@media(max-width:620px){  
-    .navigation {
-        display: flex;
-        flex-direction: row;
-    }
-    .nav-appointment-btn {
-        order: 2;
-        margin-right: 50px;
-    }
-    .logo {
-        order: 1;
-    }
-    .hamburger-menu {
-        order: 3;
-        margin-right: 10px;
+@media(max-width:345px){
+    .nav-appointment-btn{
+        margin-right: 5px;
     }
 }
 
-@media(max-width:320px){
+@media(max-width:340px){
     .nav-appointment-btn{
         display: none;
     }
 }
-
