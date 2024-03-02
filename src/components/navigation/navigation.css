@@ -83,6 +83,18 @@
     display: flex !important;
 }
 
+.hamburger-menu.active .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger-menu.active .bar2 {
+  opacity: 0;
+}
+
+.hamburger-menu.active .bar3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
 @media (max-width: 991px) {
     .navigation {
         justify-content: flex-end;
@@ -160,7 +172,7 @@
         display: flex;
         align-items: center;
         margin: 0px;
-        padding: 30px 20px;
+        padding: 0px 30px;
     }
 
 }
