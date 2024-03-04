@@ -71,7 +71,7 @@
     object-fit: contain;
 }
 
-.service-box strong {
+.service-box h3 {
     color: #122853;
     font-size: 1.4rem;
     margin-top: 10px;

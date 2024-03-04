@@ -53,7 +53,7 @@ function OurTeam() {
                 <div className="swiper-slide">
                     <div className="team-box">
                         <div className="team-img"> 
-                            <img alt="" src={IMAGE1}/>
+                            <img alt="Kanalsanierung" src={IMAGE1}/>
                         </div>
                         {/* <div className="team-text">
                             <strong>Dr. Paradox Alex</strong>
@@ -67,7 +67,7 @@ function OurTeam() {
                 <div className="swiper-slide">
                     <div className="team-box">
                         <div className="team-img">
-                            <img alt="" src={IMAGE2} />
+                            <img alt="Kanalreinigung" src={IMAGE2} />
                         </div>
                         {/* <div className="team-text">
                             <strong>Dr. Paradox Alex</strong>
@@ -81,7 +81,7 @@ function OurTeam() {
                 <div className="swiper-slide">
                     <div className="team-box">
                         <div className="team-img">
-                            <img alt="" src={IMAGE3}/>
+                            <img alt="Rohrunterhalt" src={IMAGE3}/>
                         </div>
                         {/* <div className="team-text">
                             <strong>Dr. Paradox Alex</strong>
@@ -95,7 +95,7 @@ function OurTeam() {
                 <div className="swiper-slide">
                     <div className="team-box">
                         <div className="team-img">
-                            <img alt="" src={IMAGE4} />
+                            <img alt="Beratung" src={IMAGE4} />
                         </div>
                         {/* <div className="team-text">
                             <strong>Dr. Paradox Alex</strong>
@@ -109,7 +109,7 @@ function OurTeam() {
                 <div className="swiper-slide">
                     <div className="team-box">
                         <div className="team-img">
-                            <img alt="" src={IMAGE5} />
+                            <img alt="Notfalleinsatz" src={IMAGE5} />
                         </div>
                         {/* <div className="team-text">
                             <strong>Dr. Paradox Alex</strong>
@@ -123,7 +123,7 @@ function OurTeam() {
                 <div className="swiper-slide">
                     <div className="team-box">
                         <div className="team-img">
-                            <img alt="" src={IMAGE6} />
+                            <img alt="Schachtsanierung" src={IMAGE6} />
                         </div>
                         {/* <div className="team-text">
                             <strong>Dr. Paradox Alex</strong>
@@ -137,7 +137,7 @@ function OurTeam() {
                 <div className="swiper-slide">
                     <div className="team-box">
                         <div className="team-img">
-                            <img alt="" src={IMAGE7} />
+                            <img alt="Kanal-TV Aufnahme" src={IMAGE7} />
                         </div>
                         {/* <div className="team-text">
                             <strong>Dr. Paradox Alex</strong>

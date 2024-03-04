@@ -57,8 +57,8 @@ function Services() {
           <SwiperSlide>
             <div className="swiper-slide">
               <div className="service-box s-box1">
-                <img alt="" src={PIPE} />
-                <strong>Kanalsanierung</strong>
+                <img alt="Kanalsanierung" src={PIPE} />
+                <h3>Kanalsanierung</h3>
                 <p>Unsere Kanalsanierungsdienste bieten effiziente Lösungen zur Reparatur und Instandhaltung von Abwasserleitungen.</p>             
               </div>
             </div>
@@ -67,8 +67,8 @@ function Services() {
           <SwiperSlide>
             <div className="swiper-slide">
               <div className="service-box s-box2">
-                <img alt="" src={LEAK} />
-                <strong>Kanalreinigung</strong>
+                <img alt="Kanalreinigung" src={LEAK} />
+                <h3>Kanalreinigung</h3>
                 <p>Durch regelmässige Reinigung der Abwasserleitungen können Verstopfungen und somit kostspielige Grabarbeiten vermieden werden.</p>
               </div>
             </div>
@@ -77,8 +77,8 @@ function Services() {
           <SwiperSlide>
             <div className="swiper-slide">
               <div className="service-box s-box3">
-                <img alt="" src={LABOR} />
-                <strong>Rohrunterhalt</strong>
+                <img alt="Rohrunterhalt" src={LABOR} />
+                <h3>Rohrunterhalt</h3>
                 <p>Grabungslose Kanalreparatur, z.B. Rohrauskleidung oder Rohrsprengung, minimiert Ausgrabungen und Störungen.</p>
               </div>
             </div>
@@ -87,8 +87,8 @@ function Services() {
           <SwiperSlide>
             <div className="swiper-slide">
               <div className="service-box s-box4">
-                <img alt="" src={CAMERA} />
-                <strong>Kanal-TV Aufnahme</strong>
+                <img alt="Kanal-TV Aufnahme" src={CAMERA} />
+                <h3>Kanal-TV Aufnahme</h3>
                 <p>Wir erfassen Ihre Liegenschaftsentwässerungs-anlage mit der neusten Kameratechnik und erstellen Ihnen die genauen Pläne, sodass Sie wissen wie der Zustand ist.</p>
               </div>
             </div>
@@ -97,8 +97,8 @@ function Services() {
           <SwiperSlide>
             <div className="swiper-slide">
               <div className="service-box s-box5">
-                <img alt="" src={CONSULT} />
-                <strong>Beratung</strong>
+                <img alt="Beratung" src={CONSULT} />
+                <h3>Beratung</h3>
                 <p>Unsere Beratungsservices bieten maßgeschneiderte Lösungen und fundierte Fachkenntnisse, um Sie bei der Optimierung Ihrer Kanalisation zu unterstützen.</p>
               </div>
             </div>
@@ -107,8 +107,8 @@ function Services() {
           <SwiperSlide>
             <div className="swiper-slide">
               <div className="service-box s-box6">
-                <img alt="" src={SEWER} />
-                <strong>Schachtsanierung</strong>
+                <img alt="Schachtsanierung" src={SEWER} />
+                <h3>Schachtsanierung</h3>
                 <p>Unsere Schachtsanierung optimiert die Funktionalität Ihrer Kanalzugänge, für ein sicheres und zuverlässiges Abwassersystem.</p>
               </div>
             </div>
@@ -117,8 +117,8 @@ function Services() {
           <SwiperSlide>
             <div className="swiper-slide">
               <div className="service-box s-box7">
-                <img alt="" src={EMERGENCY} />
-                <strong>Notfalleinsatz</strong>
+                <img alt="Notfalleinsatz" src={EMERGENCY} />
+                <h3>Notfalleinsatz</h3>
                 <p>Unser Notfalleinsatzteam steht Ihnen rund um die Uhr zur Verfügung, um schnelle und effektive Lösungen für akute Abwasserprobleme zu bieten.</p>
               </div>
             </div>
