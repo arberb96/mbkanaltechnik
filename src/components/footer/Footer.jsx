@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaLinkedin } from "react-icons/fa";
-
+import LOGO from '../../assets/logo/Solo-logo.svg'
 
 function Footer() {
   return (
@@ -10,7 +10,7 @@ function Footer() {
             
             <div className="footer-company-box">
                 
-                <a href="/" className="logo"><span>MB</span>Kanaltechnik</a>
+                <a href="/" className="footer-logo"><img src={LOGO} alt='logo' width={50}/>Kanaltechnik</a>
                 
                 <p>"Von der Inspektion bis zur Sanierung: Lösungen für die Gesundheit Ihres Kanals und Ihr Seelenfrieden"</p>
                 

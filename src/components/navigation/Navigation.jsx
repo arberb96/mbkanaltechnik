@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navigation.css';
+import LOGO from '../../assets/logo/Solo-logo.svg'
 
 function Navigation() {
   const [menuActive, setMenuActive] = useState(false);
@@ -15,7 +16,7 @@ function Navigation() {
   return (
     <div className='header'>
       <nav className="navigation">
-        <a href="#hero" className="logo" onClick={handleLinkClick}><span>MB</span>Kanaltechnik</a>
+        <a href="#hero" className="logo" onClick={handleLinkClick}><img src={LOGO} alt='logo' width={50}/>Kanaltechnik</a>
 
         <div className={`hamburger-menu ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>
           <div className="bar1"></div>
