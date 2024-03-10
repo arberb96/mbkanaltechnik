@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
 import LOGO from '../../assets/logo/Solo-logo.svg'
 
 function Footer() {
@@ -15,11 +15,11 @@ function Footer() {
                 <p>"Von der Inspektion bis zur Sanierung: Lösungen für die Gesundheit Ihres Kanals und Ihr Seelenfrieden"</p>
                 
                 <div className="footer-social">
-                    <a href="google" target='blank'><FaFacebookF /></a>
-                    <a href="google" target='blank'><FaInstagram /></a>
-                    <a href="google" target='blank'><FaTwitter /></a>
-                    <a href="google" target='blank'><FaLinkedin /></a>
-                    <a href="google" target='blank'><FaYoutube /></a>
+                    <a href="https://www.facebook.com/Deine.Auge" target='blank'><FaFacebookF /></a>
+                    <a href="https://www.instagram.com/nackye?igsh=emdjOWpsbzVkNG1n" target='blank'><FaInstagram /></a>
+                    {/* <a href="google" target='blank'><FaTwitter /></a> */}
+                    <a href="https://www.linkedin.com/in/biljali-muhamed-b385ba215/" target='blank'><FaLinkedin /></a>
+                    {/* <a href="google" target='blank'><FaYoutube /></a> */}
                 </div>
             </div>
             
