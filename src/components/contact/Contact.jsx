@@ -39,7 +39,7 @@ function Contact() {
             <article className='contact__option'>
               <FaWhatsapp size={16}/>
               <h5>WhatsApp</h5>
-              <a className="contact-link" href="https://api.whatsapp.com/send?phone0448400025" target='_blank' rel="noreferrer">044-840-00-25</a>
+              <a className="contact-link" href="https://api.whatsapp.com/send?phone=+41448400025" target='_blank' rel="noreferrer">044-840-00-25</a>
             </article>
           </div>
           <div className="contact__address-map">
