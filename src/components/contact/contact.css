@@ -25,7 +25,7 @@
 
 .contact__address-map {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 35% 65%;
 }
 
 .contact__address {
@@ -45,11 +45,8 @@ h2 {
 }
 
 .contact__option {
-    /* background: #065391; */
     background-color: #ecf6fd;
-    /* border-radius: 4px; */
     text-align: center;
-    /* border: 1px solid transparent; */
     border: 5px solid #ffffff;
     transition: all 400ms ease;
     color: #065391;;
@@ -67,9 +64,6 @@ h2 {
 
 
 .contact__option:hover{
-    /* background: transparent;
-    border-color: #065391;
-    color: #065391; */
     border: 5px solid #c7d0eb;
 }
 
