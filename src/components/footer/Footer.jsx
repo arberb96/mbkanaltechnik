@@ -18,7 +18,7 @@ function Footer() {
                     <a href="https://www.facebook.com/Deine.Auge" target='blank'><FaFacebookF /></a>
                     <a href="https://www.instagram.com/nackye?igsh=emdjOWpsbzVkNG1n" target='blank'><FaInstagram /></a>
                     {/* <a href="google" target='blank'><FaTwitter /></a> */}
-                    <a href="https://www.linkedin.com/in/biljali-muhamed-b385ba215/" target='blank'><FaLinkedin /></a>
+                    <a href="https://www.linkedin.com/company/mb-kanaltechnik-gmbh/" target='blank'><FaLinkedin /></a>
                     {/* <a href="google" target='blank'><FaYoutube /></a> */}
                 </div>
             </div>
