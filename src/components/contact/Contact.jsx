@@ -29,17 +29,17 @@ function Contact() {
           <article className='contact__option'>
               <FaPhone size={16}/>
               <h5>Telefon</h5>
-              <a className="contact-link" href="tel:079-210-40-40" target='_blank' data-rel="external" rel="noreferrer">079-210-40-40</a>
+              <a className="contact-link" href="tel:0792104040" target='_blank' data-rel="external" rel="noreferrer">079-210-40-40</a>
             </article>
             <article className='contact__option'>
               <FaFax size={16}/>
               <h5>Fax</h5>
-              <a className="contact-link" href="tel:044-840-00-25" target='_blank' data-rel="external" rel="noreferrer">044-840-00-25</a>
+              <a className="contact-link" href="tel:0448400025" target='_blank' data-rel="external" rel="noreferrer">044-840-00-25</a>
             </article>
             <article className='contact__option'>
               <FaWhatsapp size={16}/>
               <h5>WhatsApp</h5>
-              <a className="contact-link" href="https://api.whatsapp.com/send?phone=079-210-40-40" target='_blank' rel="noreferrer">079-210-40-40</a>
+              <a className="contact-link" href="https://api.whatsapp.com/send?phone=+792104040" target='_blank' rel="noreferrer">079-210-40-40</a>
             </article>
           </div>
           <div className="contact__address-map">
